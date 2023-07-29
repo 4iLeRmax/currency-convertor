@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/currency-convertor/static/css/main.40e47495.css",
-    "main.js": "/currency-convertor/static/js/main.5914d559.js",
+    "main.css": "/currency-convertor/static/css/main.37de2b03.css",
+    "main.js": "/currency-convertor/static/js/main.0cfd4b85.js",
     "index.html": "/currency-convertor/index.html",
-    "main.40e47495.css.map": "/currency-convertor/static/css/main.40e47495.css.map",
-    "main.5914d559.js.map": "/currency-convertor/static/js/main.5914d559.js.map"
+    "main.37de2b03.css.map": "/currency-convertor/static/css/main.37de2b03.css.map",
+    "main.0cfd4b85.js.map": "/currency-convertor/static/js/main.0cfd4b85.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e47495.css",
-    "static/js/main.5914d559.js"
+    "static/css/main.37de2b03.css",
+    "static/js/main.0cfd4b85.js"
   ]
 }
