@@ -13,14 +13,13 @@ body {
 }
 
 .App {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  // grid-template-columns: 1fr;
-  grid-column-gap: 30px;
-  max-width: 1000px;
-  margin: 100px auto;
+  width: 100%;
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #fff;
-  padding: 30px;
+  padding: 20px 30px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
 }
@@ -85,8 +84,8 @@ body {
   }
 }
 
-@media screen and (max-width: 400px){
-  .App{
+@media screen and (max-width: 400px) {
+  .App {
     // display: grid;
     // grid-template-columns: 1fr 1fr;
     // // grid-template-columns: 1fr;
@@ -104,7 +103,7 @@ body {
     max-width: 100%;
     margin: 0;
   }
-  .currencies{
+  .currencies {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -119,7 +118,7 @@ body {
       // margin-top: 20px;
       // border-radius: 5px;
       // width: 100%;
-      
+
       margin-top: 5px;
     }
   }

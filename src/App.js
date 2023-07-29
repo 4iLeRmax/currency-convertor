@@ -16,6 +16,7 @@ function App() {
       await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json')
         .then(res => res.json())
         .then(json => {
+          console.log(json);
           let a = {};
           for (let i = 0; i < json.length; i++) {
             a[json[i].cc] = json[i].rate
@@ -31,7 +32,7 @@ function App() {
     })();
   }, []);
 
-  console.log(rates);
+  // console.log(rates);
 
   const onChangeFromPrice = value => {
     setFromPrice(value);
